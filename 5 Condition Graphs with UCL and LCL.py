@@ -296,7 +296,7 @@ def perform_simulations():
                                                   ATgraph(ME_data, trControl, trAttention, trTangibles, trEscape, trAlone)
 
                                                   # Title to distinguish different graphs
-                                                  plt.title(f'nb_points={nb}, a={a}, trControl={trControl}, trAttnention={trAttention}, trTangibles={trTangibles},trEscape={trEscape},trControl={trControl}, smdAttention={smdAttention}, smdTangibles={smdTangibles}, smdEscape={smdEscape}, smdAlone={smdAlone}, r={r}')
+                                                  plt.title(f'nb_points={nb}, a={a}, trControl={trControl}, trAttnention={trAttention}, trTangibles={trTangibles},trEscape={trEscape},trControl={trControl}, smdAttention={smdAttention}, smdTangibles={smdTangibles}, smdEscape={smdEscape}, smdAlone={smdAlone}, r={r}', fontsize=4)
 
                                                   #plt.show()
                                                   pp.savefig()
